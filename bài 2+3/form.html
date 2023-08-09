@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Form
+==>dùng để tạo biểu mẫu, nhập dữ liệu
+-các thuộc tính riêng của form
++ action:địa chỉ server nơi nhận dữ liệu
++ method các phương thức làm việc với form (GET,POST, PUT,PATCH,DELETE)
+- Cách tạo form và các thẻ hay dùng trong form
+1.label dùng để làm nhãn dán( focus vào ô dữ liệu với thuộc tính
+for trùng với id của thẻ)
+2.input: ô nhập dữ liệu
+-các thuộc tính riêng của thẻ input
++type:
+1.text mặc định là text
+2.password ẩn mk đi
+3.radio: phân tích 1 cái trong nhiều cái
+4.checkbox:tích chọn nhiều cái
+5.ranger: tạo thanh trượt
+6.date: hiện thị ngày
+7.number:chỉ nhập số nhập được chữ e
+8.tel
++value:giá trị ô input
++name:dùng để gửi dữ liệu lên sever
++placeholder:gợi ý cho người đăng nhập
++autocomplete
++required: bắt buộc phải nhập để submit
++disabled:ẩn không dùng submit
+3.button:tạo nút bấm để submit
+4.select option:bộ chọn
+5.textarea:tạo form nhập text
+    -->
+    <form action="">
+        <label for="usename">Tên đăng nhập</label>
+        <input type=""id="usename" placeholder="điền thông tin"> <br>
+        A <input type="radio" name="test">
+        B <input type="radio" name="test">
+        C <input type="radio" name="test">
+        D <input type="radio" name="test">  <br>
+        <p>Giới tinh: Nam <input type="radio" name="test"> Nứ <input type="radio" name="test">
+      <input type="range" max="10" min="0" value="0">
+      <input type="date">
+      <input type="text" value="minh">
+      <input type="submit">
+      <button>
+        login
+        <input type="submit">
+      </button>
+    <select name="" id="">
+        <option value="áo"></option>
+        <option value="quần"></option>
+        <option value="túi"></option>
+        <option value="khăn"></option>
+    </select> <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+        </form>
+</body>
+</html>
