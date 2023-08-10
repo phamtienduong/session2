@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.youtube.com/" method="get">
+        <fieldset>
+            <legend>Thông tin sản phẩm</legend>
+            Tên sản phẩm: <input type="text">
+            Số lượng: <input type="number" value="1">
+        </fieldset> <br>
+        <fieldset>
+            <legend>Thông tin giao hàng</legend>
+            Họ và tên: <input type="name">
+            Email: <input type="email" name="email" id="email">
+            Số điện thoại: <input type="tel" value="+84" >
+            Địa chỉ: <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin thanh toán</legend>
+            Phương thức thanh toán: <select name="" id="">
+                <option value="1">Thanh toán khi nhận hàng</option>
+                <option value="2">Thanh toán qua thẻ</option>
+                <option value="3">Thanh toán bằng card</option>
+            </select>
+        </fieldset>
+
+    </form>
+</body>
+</html>

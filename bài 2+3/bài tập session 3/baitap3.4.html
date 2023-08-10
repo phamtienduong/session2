@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Liên hệ</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="fullname">Họ và tên:</label></td>
+                <td><input type="text" id="fullname" name="fullname"><br></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"><br></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại:</label></td>
+                <td><input type="tel" id="phone" name="phone"><br></td>
+            </tr>
+            <tr>
+                <td><label for="subject">Chủ đề:</label>
+                    <select id="subject" name="subject">
+                      <option value="general">Tổng quan</option>
+                      <option value="sales">Bán hàng</option>
+                      <option value="support">Hỗ trợ</option>
+                      <option value="partnership">Đối tác</option>
+                    </select><br></td>
+            </tr>
+            <tr>
+                <td> <label for="message">Nội dung</label></td>
+                <td><textarea name="message" id="message" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="newsletter" name="newsletter" value="yes"></td>
+                <td><label for="newsletter">Nhận thông tin từ chúng tôi</label><br></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Gửi"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Đăng ký tài khoản</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="usename">Tên đăng nhập</label></td>
+                    <td><input type="text" id="usename" required></td><br>
+                </tr>
+                <tr>
+                    <td><label for="password">Mật khẩu</label></td>
+                    <td><input type="password" id="password" name="password" minlength="8" required></td>
+                </tr>
+                <tr>
+                    <td><label for="confirm_password">Xác nhận lại mật khẩu</label></td>
+                    <td><input type="password" id="confirm_password" name="confirm_password"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Giới tính</label></td>
+                    <td><input type="radio" name="gender" id="male" required></td>
+                    <td><label for="male">Nam</label></td>
+                    <td><input type="radio" name="gender" id="female" required></td>
+                    <td><label for="female">Nữ</label></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Đăng ký"></td>
+                </tr>
+            </table>
+           
+        </form>
+</body>
+</html>
